@@ -1,0 +1,29 @@
+{
+  "name": "xmcurrency",
+  "version": "1.0.0",
+  "description": "人民币处理类, 编译生成的版本是ES2015",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zdhsoft",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdhsoft/xmcurrency.git"
+  },
+  "keywords": [
+    "currency",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/zdhsoft/xmcurrency/issues"
+  },
+  "homepage": "https://github.com/zdhsoft/xmcurrency#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.137"
+  }
+}
