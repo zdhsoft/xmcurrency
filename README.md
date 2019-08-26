@@ -1,6 +1,11 @@
 # 人民币处理类
 
 ## 目标版本是 ES2015 请确认运行环境是否支持ES2015
+
+## 库
+- github: https://github.com/zdhsoft/xmcurrency
+- npm: https://www.npmjs.com/package/xmcurrency
+
 ## 示例代码
 ```js
 let m = [];
