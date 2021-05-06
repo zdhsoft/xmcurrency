@@ -1,6 +1,6 @@
 {
   "name": "xmcurrency",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "人民币处理类, 编译生成的版本是ES2015",
   "main": "dist/index.js",
   "scripts": {
