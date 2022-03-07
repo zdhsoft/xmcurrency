@@ -48,7 +48,7 @@ export declare class XMCurrency {
     /** 判断指定的对象，是不是指定的XMCurrency对象 */
     static isCurrency(paramV: any): boolean;
     /** 货币值 */
-    readonly value: number;
+    get value(): number;
     /**
      * 赋值
      * @param {number | string | XMCurrency} paramValue 新值
@@ -56,11 +56,11 @@ export declare class XMCurrency {
      */
     assign(paramValue?: number | string | XMCurrency): XMCurrency;
     /** 货币整数值，精确到分 */
-    readonly intValue: number;
+    get intValue(): number;
     /** 是否有错 */
-    readonly isErr: boolean;
+    get isErr(): boolean;
     /** 错误信息 */
-    readonly errMsg: string;
+    get errMsg(): string;
     /** 重置为0 */
     Reset(): void;
     /**
@@ -119,11 +119,11 @@ export declare class XMCurrency {
      * 货币的整数部分
      * @return {number} 返回整数
      */
-    readonly yuan: number;
+    get yuan(): number;
     /**
      * 货币的小数部分，单位为分
      */
-    readonly cent: number;
+    get cent(): number;
     /**
      * 生成字符串
      */
